@@ -84,6 +84,7 @@
     self = [super init];
     if(self != nil){
         self.definition = [NSMutableArray array];
+        self.imp = [NSMutableArray array];
     }
     return self;
 }
